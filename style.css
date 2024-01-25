@@ -1,0 +1,79 @@
+h1 {
+  color: orange;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: lightblue;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  color: #001f3f;
+  background-color: grey;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: normal;
+}
+
+a{
+	text-decoration: none;
+
+
+}
+
+.bouton {
+	background-color: orange;
+	color: black;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.bouton:hover{
+	color: black;
+	background-color: lightblue;
+
+}
+
+.photo {
+  border-radius: 20%;
+  border: 5px solid lightblue;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 700px;
+  margin: 10px auto;
+}
+
+.section{
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+
+}
+
+
+.liste{
+	list-style: none;
+	padding-left:0px;
+}
+.liste li{
+	display: inline;
+	padding:10px;
+}
+.liste i{
+	font-size: 25px;
+	color: orange ;
+}
+.liste i:hover{
+	color: lightblue;
+}
